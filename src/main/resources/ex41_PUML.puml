@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class exercise41
+ArrayList : Object[] names
+ArrayList : size()
+
+exercise41 <|-- ArrayList
+exercise41 <|-- exercise41_input.txt
+exercise41 <|-- exercise41_output.txt
+
+
+
+@enduml
